@@ -1,0 +1,27 @@
+{
+	"audio": {
+		"lossless": false,
+		"normalization": true,
+		"normalization_mode": "ebu"
+	},
+	"folders": {
+		"input": "input",
+		"output": "output",
+		"temporary": "temporary"
+	},
+	"image": {
+		"compression_level": 6,
+		"lossless": false,
+		"preset": "default",
+		"qscale": 75
+	},
+	"programs": {
+		"ffmpeg": "ffmpeg",
+		"ffmpeg-normalize": "ffmpeg-normalize"
+	},
+	"video": {
+		"keep_audio": true,
+		"normalize_audio": true,
+		"output_video_codec": "av1"
+	}
+}
